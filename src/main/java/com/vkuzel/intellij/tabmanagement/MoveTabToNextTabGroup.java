@@ -17,7 +17,7 @@ public class MoveTabToNextTabGroup extends DumbAwareAction {
 
         var fileEditorManagerEx = FileEditorManagerEx.getInstanceEx(project);
         var nextWindowPane = fileEditorManagerEx.getNextWindow(activeWindowPane);
-        if (nextWindowPane == activeWindowPane) return;
+        if (nextWindowPane == null || nextWindowPane == activeWindowPane) return;
 
         var activeEditorTab = activeWindowPane.getSelectedComposite();
         if (activeEditorTab == null) return;
@@ -25,7 +25,8 @@ public class MoveTabToNextTabGroup extends DumbAwareAction {
         var activeFile = activeEditorTab.getFile();
         nextWindowPane.getManager().openFileImpl2(nextWindowPane, activeFile, true);
 
-        fileEditorManagerEx.setCurrentWindow(nextWindowPane);
+        nextWindowPane.setAsCurrentWindow(true);
         activeWindowPane.closeFile(activeFile, true, false);
+        nextWindowPane.requestFocus(true);
     }
 }
