@@ -17,20 +17,20 @@
         </action>
 
         <action id="com.vkuzel.intellij.tabmanagement.SwitchToPrevTabGroup"
-                class="com.vkuzel.intellij.tabmanagement.SwitchToPrevTabGroup" text="Switch focus to Previous Splitter">
+                class="com.vkuzel.intellij.tabmanagement.SwitchToPrevTabGroup" text="Switch focus to previous tab group">
             <keyboard-shortcut first-keystroke="control alt PAGE_UP" keymap="$default"/>
         </action>
         <action id="com.vkuzel.intellij.tabmanagement.SwitchToNextTabGroup"
-                class="com.vkuzel.intellij.tabmanagement.SwitchToNextTabGroup" text="Switch focus to Next Splitter">
+                class="com.vkuzel.intellij.tabmanagement.SwitchToNextTabGroup" text="Switch focus to next tab group">
             <keyboard-shortcut first-keystroke="control alt PAGE_DOWN" keymap="$default"/>
         </action>
 
         <action id="com.vkuzel.intellij.tabmanagement.MoveTabToPrevTabGroup"
-                class="com.vkuzel.intellij.tabmanagement.MoveTabToPrevTabGroup" text="Move Tab to Previous Splitter">
+                class="com.vkuzel.intellij.tabmanagement.MoveTabToPrevTabGroup" text="Move Tab to previous tab group">
             <keyboard-shortcut first-keystroke="control alt shift PAGE_UP" keymap="$default"/>
         </action>
         <action id="com.vkuzel.intellij.tabmanagement.MoveTabToNextTabGroup"
-                class="com.vkuzel.intellij.tabmanagement.MoveTabToNextTabGroup" text="Move Tab to Next Splitter">
+                class="com.vkuzel.intellij.tabmanagement.MoveTabToNextTabGroup" text="Move Tab to next tab group">
             <keyboard-shortcut first-keystroke="control alt shift PAGE_DOWN" keymap="$default"/>
         </action>
     </actions>
