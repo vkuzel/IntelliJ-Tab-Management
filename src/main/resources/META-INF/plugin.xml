@@ -1,0 +1,37 @@
+<idea-plugin>
+    <id>com.vkuzel.intellij.tabmanagement</id>
+    <name>Tab Management</name>
+    <version>0.0.1</version>
+
+    <idea-version since-build="261"/>
+    <depends>com.intellij.modules.lang</depends>
+
+    <actions>
+        <action id="com.vkuzel.intellij.tabmanagement.MoveTabLeft"
+                class="com.vkuzel.intellij.tabmanagement.MoveTabLeft" text="Move tab left">
+            <keyboard-shortcut first-keystroke="control shift PAGE_UP" keymap="$default"/>
+        </action>
+        <action id="com.vkuzel.intellij.tabmanagement.MoveTabRight"
+                class="com.vkuzel.intellij.tabmanagement.MoveTabRight" text="Move tab right">
+            <keyboard-shortcut first-keystroke="control shift PAGE_DOWN" keymap="$default"/>
+        </action>
+
+        <action id="com.vkuzel.intellij.tabmanagement.SwitchToPrevTabGroup"
+                class="com.vkuzel.intellij.tabmanagement.SwitchToPrevTabGroup" text="Switch focus to Previous Splitter">
+            <keyboard-shortcut first-keystroke="control alt PAGE_UP" keymap="$default"/>
+        </action>
+        <action id="com.vkuzel.intellij.tabmanagement.SwitchToNextTabGroup"
+                class="com.vkuzel.intellij.tabmanagement.SwitchToNextTabGroup" text="Switch focus to Next Splitter">
+            <keyboard-shortcut first-keystroke="control alt PAGE_DOWN" keymap="$default"/>
+        </action>
+
+        <action id="com.vkuzel.intellij.tabmanagement.MoveTabToPrevTabGroup"
+                class="com.vkuzel.intellij.tabmanagement.MoveTabToPrevTabGroup" text="Move Tab to Previous Splitter">
+            <keyboard-shortcut first-keystroke="control alt shift PAGE_UP" keymap="$default"/>
+        </action>
+        <action id="com.vkuzel.intellij.tabmanagement.MoveTabToNextTabGroup"
+                class="com.vkuzel.intellij.tabmanagement.MoveTabToNextTabGroup" text="Move Tab to Next Splitter">
+            <keyboard-shortcut first-keystroke="control alt shift PAGE_DOWN" keymap="$default"/>
+        </action>
+    </actions>
+</idea-plugin>
