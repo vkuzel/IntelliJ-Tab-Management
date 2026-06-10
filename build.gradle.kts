@@ -1,5 +1,5 @@
 plugins {
-    id("org.jetbrains.intellij.platform") version "2.7.1"
+    id("org.jetbrains.intellij.platform") version "2.16.0"
     java
 }
 
@@ -21,7 +21,7 @@ repositories {
 
 dependencies {
     intellijPlatform {
-        intellijIdeaUltimate("2026.1")
+        intellijIdea("2026.1.3")
         bundledPlugin("com.intellij.java")
     }
 }
