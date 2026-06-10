@@ -23,10 +23,8 @@ public class MoveTabToNextTabGroup extends DumbAwareAction {
         if (activeEditorTab == null) return;
 
         var activeFile = activeEditorTab.getFile();
-        nextWindowPane.getManager().openFileImpl2(nextWindowPane, activeFile, true);
 
-        nextWindowPane.setAsCurrentWindow(true);
-        activeWindowPane.closeFile(activeFile, true, false);
-        nextWindowPane.requestFocus(true);
+        activeWindowPane.closeFile(activeFile);
+        nextWindowPane.getManager().openFileImpl2(nextWindowPane, activeFile, true);
     }
 }
