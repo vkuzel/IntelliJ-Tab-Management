@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keymap version="1" name="Tab Management" parent="$default">
+    <action id="NextTab">
+        <keyboard-shortcut first-keystroke="ctrl PAGE_DOWN"/>
+    </action>
+    <action id="PreviousTab">
+        <keyboard-shortcut first-keystroke="ctrl PAGE_UP"/>
+    </action>
+    <action id="CloseContent">
+        <keyboard-shortcut first-keystroke="ctrl W"/>
+    </action>
+
+    <action id="EditorSelectWord"/>
+    <action id="UsageFiltering.WriteAccess"/>
+    <action id="EditorMoveToPageTop"/>
+    <action id="EditorMoveToPageBottom"/>
+</keymap>

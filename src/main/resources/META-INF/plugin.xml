@@ -6,6 +6,10 @@
     <idea-version since-build="261"/>
     <depends>com.intellij.modules.lang</depends>
 
+    <extensions defaultExtensionNs="com.intellij">
+        <bundledKeymap file="Tab Management.xml"/>
+    </extensions>
+
     <actions>
         <action id="com.vkuzel.intellij.tabmanagement.MoveTabLeft"
                 class="com.vkuzel.intellij.tabmanagement.MoveTabLeft" text="Move tab left">
