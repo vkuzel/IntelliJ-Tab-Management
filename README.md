@@ -7,7 +7,7 @@ Tab Management plugin for IntelliJ IDEA plugin.
 - `Control+Alt+PageUp` switch focus to previous tab group
 - `Control+Alt+PageDown` switch focus to next tab group
 - `Control+Alt+Shift+PageUp` to move tab to previous tab group within the same window
-- `Control+Alt+Shift+PageDown` to make tab to next tab group within the same window
+- `Control+Alt+Shift+PageDown` to move tab to next tab group within the same window
 
 ## Installation
 
