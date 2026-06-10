@@ -14,4 +14,6 @@
     <action id="UsageFiltering.WriteAccess"/>
     <action id="EditorMoveToPageTop"/>
     <action id="EditorMoveToPageBottom"/>
+    <action id="EditorMoveToPageTopWithSelection"/>
+    <action id="EditorMoveToPageBottomWithSelection"/>
 </keymap>
