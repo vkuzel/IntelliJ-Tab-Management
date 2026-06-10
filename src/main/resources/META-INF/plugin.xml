@@ -11,30 +11,30 @@
     </extensions>
 
     <actions>
-        <action id="com.vkuzel.intellij.tabmanagement.MoveTabLeft"
-                class="com.vkuzel.intellij.tabmanagement.MoveTabLeft" text="Move tab left">
+        <action id="tm.MoveTabLeft" class="com.vkuzel.intellij.tabmanagement.MoveTabLeft"
+                text="Move Tab Left">
             <keyboard-shortcut first-keystroke="control shift PAGE_UP" keymap="$default"/>
         </action>
-        <action id="com.vkuzel.intellij.tabmanagement.MoveTabRight"
-                class="com.vkuzel.intellij.tabmanagement.MoveTabRight" text="Move tab right">
+        <action id="tm.MoveTabRight" class="com.vkuzel.intellij.tabmanagement.MoveTabRight"
+                text="Move Tab Right">
             <keyboard-shortcut first-keystroke="control shift PAGE_DOWN" keymap="$default"/>
         </action>
 
-        <action id="com.vkuzel.intellij.tabmanagement.SwitchToPrevTabGroup"
-                class="com.vkuzel.intellij.tabmanagement.SwitchToPrevTabGroup" text="Switch focus to previous tab group">
+        <action id="tm.SwitchToPrevTabGroup" class="com.vkuzel.intellij.tabmanagement.SwitchToPrevTabGroup"
+                text="Switch Focus to Previous Tab Group">
             <keyboard-shortcut first-keystroke="control alt PAGE_UP" keymap="$default"/>
         </action>
-        <action id="com.vkuzel.intellij.tabmanagement.SwitchToNextTabGroup"
-                class="com.vkuzel.intellij.tabmanagement.SwitchToNextTabGroup" text="Switch focus to next tab group">
+        <action id="tm.SwitchToNextTabGroup" class="com.vkuzel.intellij.tabmanagement.SwitchToNextTabGroup"
+                text="Switch Focus to Next Tab Group">
             <keyboard-shortcut first-keystroke="control alt PAGE_DOWN" keymap="$default"/>
         </action>
 
-        <action id="com.vkuzel.intellij.tabmanagement.MoveTabToPrevTabGroup"
-                class="com.vkuzel.intellij.tabmanagement.MoveTabToPrevTabGroup" text="Move Tab to previous tab group">
+        <action id="tm.MoveTabToPrevTabGroup" class="com.vkuzel.intellij.tabmanagement.MoveTabToPrevTabGroup"
+                text="Move Tab to Previous Tab Group">
             <keyboard-shortcut first-keystroke="control alt shift PAGE_UP" keymap="$default"/>
         </action>
-        <action id="com.vkuzel.intellij.tabmanagement.MoveTabToNextTabGroup"
-                class="com.vkuzel.intellij.tabmanagement.MoveTabToNextTabGroup" text="Move Tab to next tab group">
+        <action id="tm.MoveTabToNextTabGroup" class="com.vkuzel.intellij.tabmanagement.MoveTabToNextTabGroup"
+                text="Move Tab to Next Tab Group">
             <keyboard-shortcut first-keystroke="control alt shift PAGE_DOWN" keymap="$default"/>
         </action>
     </actions>
