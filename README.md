@@ -2,6 +2,9 @@
 
 Tab Management plugin for IntelliJ IDEA plugin.
 
+- `Ctrl+w` close tab
+- `Ctrl+PageUp` select left tab
+- `Ctrl+PageDown` select right tab
 - `Control+Shift+PageUp` move tab left
 - `Control+Shift+PageDown` move tab right
 - `Control+Alt+PageUp` switch focus to previous tab group
@@ -13,3 +16,4 @@ Tab Management plugin for IntelliJ IDEA plugin.
 
 1. `./gradlew build`
 2. Settings -> Plugins -> Install Plugin from Disk -> select `build/libs/intellij-tab-management-0.0.1.jar`
+3. Settings -> Keymap -> "Tab Management"
